@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.navbar-brand img{
+  position: relative;
+  left: 25%;
+}
+.navbar-brand span{
+  font-size: 17px;
+}
+.login input{
+  width: 140px;
+}
+.login input::placeholder{
+  font-size: 13px;
+  text-align: center;
+}
+.login input:focus::placeholder{
+  transform: translateY(-40%);
+  transition: 0.2s ease-in-out;
+}
+.login input:not(:focus)::placeholder{
+  transform: translateY(0%);
+  transition: 0.2s ease-in-out;
+}
+.menu-one{
+  position: relative;
+  left: 27%;
+}
+.header-two{
+  margin-top: 4%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+body{
+  overflow-x: hidden;
+}
+.header-two a:hover{
+  background-color: grey;
+}
+.search{
+  display: flex;
+  align-items: center;
+}
+.search I{
+  position: relative;
+  right: 25px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.search input{
+  width: 280px;
+  height: 40px;
+  border: none;
+}
+.search input::placeholder{
+  position: relative;
+  left: 10%;
+}
+.search input:focus::placeholder{
+  transform: translateY(-40%);
+  transition: 0.2s ease-in-out;
+}
+.search input:not(:focus)::placeholder{
+  transform: translateY(0%);
+  transition: 0.2s ease-in-out;
+}
+.card{
+  margin-top: 5%;
+}
